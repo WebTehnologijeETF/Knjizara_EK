@@ -1,0 +1,78 @@
+body{
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	font-family: Arial;
+}
+#zaglavlje{
+	border: 1px solid black;
+	width: 100%;
+	height: 150px;
+	background: #202020;
+	text-align:center;
+}
+#zaglavlje #logo img{
+	width:150px;
+	height:150px;
+	margin-top:20px;
+	margin-left: -800px;
+}
+#omotac{
+	width: 930px;
+	height: auto;
+	border: 1px solid black;
+	margin: 0px auto;
+}
+#main{
+	border:1px solid black;
+	height: 325px;
+}
+#main img{
+	border:1px solid black;
+	width:926px;
+}
+#dno{
+	height: 40px;
+	border:1px solid black;
+	text-align: center;
+	font-size: 14px;
+}
+#zaglavlje #navigacija {
+	margin-top: -70px;
+	margin-left: 350px;
+}
+#zaglavlje #navigacija a{
+	text-decoration:none;
+}
+#zaglavlje #navigacija  a:hover{
+	color:yellow;
+}
+#zaglavlje #navigacija  ul  li{
+
+	list-style-type: none;
+	display: inline;
+	padding: 3px 8px 3px 8px;
+	background-color: #99FF99;
+	font-size: 21px;
+	color: black;
+}
+#omotac #tabela{
+	width: 700px;
+	height: 250px;
+	table-layout: fixed;
+}
+#omotac #tabela td{
+	background: #D8D8D8;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000
+}
+#lista ul li{
+	display:inline;
+
+}
